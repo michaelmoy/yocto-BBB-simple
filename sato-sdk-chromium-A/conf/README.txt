@@ -11,7 +11,7 @@ These are the elements we want built:
 	aspell \
 	x11vnc"
   
-  The chromuim app is the browser that works. this build requires the app to be started from a terminal window with the commenad:
+  The chromuim app is the browser that is working in this build. This build requires the Browser app to be started from a terminal window with the command:
   chromium --no-sandbox
   
   The Layers to do this are:
@@ -25,7 +25,7 @@ These are the elements we want built:
   /home/michael/MoySandbox/yocto/poky/meta-clang \
   /home/michael/MoySandbox/yocto/poky/meta-browser \
   
-This is what a previous buit looked like:
+This is what a previous build looked like. Notice the git branches used:
 
 michael@yocto:~/MoySandbox/yocto/poky/build$ 
 michael@yocto:~/MoySandbox/yocto/poky/build$ 
