@@ -15,6 +15,6 @@ This build works on the BeagleBone Black and the x86-64 platform. The x86-64 too
 - beaglebone-yocto
 - genericx86-64
 
-The x80-64 build, while running from a USB stick, on my fastest machine, was very snappy and the browser looked nice. A dual mnitor setup created one big display window that had each half on a seperate display in a side by side layout. Unplugging one monitor fixed that but it was very interesting to see it layed out that way.
+The x86-64 build, while running from a USB stick, on my fastest machine, was very snappy and the browser looked nice. A dual monitor setup created one big display window that had each half on a seperate display in a side by side layout. Unplugging one monitor fixed that but it was very interesting to see it layed out that way.
 
 
