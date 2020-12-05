@@ -1,0 +1,76 @@
+    1  uname -a
+    2  mkdir MoySandbox
+    3  cd MoySandbox/
+    4  mkdir yocto
+    5  cd yocto/
+    6  git clone git://git.yoctoproject.org/poky.git
+    7  exit
+    8  uname -a
+    9  cd MoySandbox/
+   10  cd yocto/
+   11  ls
+   12  git
+   13  sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint3 xterm python3-subunit mesa-common-dev
+   14  git clone git://git.yoctoproject.org/poky
+   15  cd poky/
+   16  git fetch --tags
+   17  git tag
+   18  git branch
+   19  git checkout tags/gatesgarth-24.0.0 -b my-gg-24
+   20  git branch
+   21  git tag
+   22  . oe-init-build-env 
+   23  nano conf/local.conf 
+   24  cat conf/bblayers.conf 
+   25  cd ../
+   26  ls
+   27  git clone https://github.com/openembedded/meta-openembedded.git
+   28  git branch
+   29  cd meta-openembedded/
+   30  git branch
+   31  git tag
+   32  git branch show
+   33  git -b gatesgarth
+   34  git status
+   35  git 
+   36  git show branch
+   37  git branch -r
+   38  git checkout gatesgarth
+   39  git branch
+   40  cd ../
+   41  cat build/conf/bblayers.conf 
+   42  git clone git://git.yoctoproject.org/meta-yocto-bsp
+   43  ls
+   44  ls -lart
+   45  git clone git://git.yoctoproject.org/meta-python2
+   46  git clone git://git.yoctoproject.org/meta-clang
+   47  git clone https://github.com/YoeDistro/meta-python2.git
+   48  cat build/conf/bblayers.conf 
+   49  git clone https://github.com/kraj/meta-clang.git
+   50  git clone https://github.com/OSSystems/meta-browser.git
+   51  ls -lart
+   52  cat build/conf/bblayers.conf 
+   53  cd build/
+   54  nano conf/local.conf 
+   55  df
+   56  echo '/dev/nvme0n1p2 459860072 6093344 430384100   2% /'
+   57  bitbake core-image-sato-sdk
+   58  ls
+   59  cd ../
+   60  ls -lart
+   61  ./scripts/install-buildtools 
+   62  . oe-init-build-env 
+   63  bitbake core-image-sato-sdk
+   64  cd ../
+   65  source oe-init-build-env 
+   66  bitbake core-image-sato-sdk
+   67  gcc --version
+   68  apt-get install update
+   69  sudo apt-get install update
+   70  sudo apt-get install upgrade
+   71  sudo apt-get update gcc
+   72  sudo apt-get install gcc
+   73  df
+   74  exit
+   75  cd MoySandbox/
+   76  history > history-gcc-old.txt
